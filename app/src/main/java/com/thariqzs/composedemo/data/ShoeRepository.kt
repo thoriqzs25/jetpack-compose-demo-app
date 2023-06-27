@@ -2,7 +2,6 @@ package com.thariqzs.composedemo.data
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf
-import kotlinx.coroutines.flow.map
 
 class ShoeRepository {
     private val shoeList = mutableListOf<ShoeSale>()
